@@ -4,7 +4,7 @@
 - [Technologies](#technologies)
 - [Quick start](#quick-start)
 - [License](#License)
-- [Demo](https://hanks-bs.github.io/tytan-site/) //TO CHANGE
+- [Demo](https://hanks-bs.github.io/tytan-site/)
 
 ## General info
 
