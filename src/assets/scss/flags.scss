@@ -1,0 +1,15 @@
+.flags
+{
+    position: fixed;
+    width: 42px;
+    top: 90px;
+    transform: translateX(-30px);
+    z-index: 3;
+    right: 0;
+
+    .flag 
+    {
+        margin-top:15px;
+    }
+}
+

@@ -1,0 +1,119 @@
+@import "__variables";
+
+section.contact__section {
+
+        .subsection
+        {
+            background-color: #fff;
+            padding: 30px 15px;
+
+            h2 
+            {
+                color: #161616;
+            }
+            p
+            {
+                text-align: center;
+                font-weight: 550;
+            }
+
+
+            .form__container > form
+            {
+
+                .form__inputContainer
+                {
+                    #form-message 
+                    {
+                        resize:both;
+                        min-height: 175px;
+                        padding: 10px;
+                        resize: vertical;
+                    }
+                    margin-bottom: 15px;
+                    display: grid;
+                    label
+                    {
+                       
+                        color: #000;
+                        font-size: 1.05em;
+                        font-weight: 800;
+                    }
+
+                    .uk-form-controls
+                    {
+                        margin-top: 5px;
+
+                        &.uk-form-custom
+                        {
+                            @media only screen and (min-width:405px) {
+                                display: flex;
+                                justify-content: space-between;
+                                .btn__container
+                                {
+                                    
+                                    display: flex;
+                                }
+                                }
+                            input[type='file']
+                                {
+                                    z-index: 0;
+                                }
+                                input[type='text']
+                                {
+                                    width: 270px;
+                                }
+                            button
+                            {
+                                cursor: pointer;
+                                padding: 0 15px;
+                                z-index: 1;
+                            }
+                            @media only screen and (max-width:404px) {
+                                input[type='text']
+                                {
+                                    width: 100%;
+                                    margin-bottom: 5px;
+                                }
+                                button
+                                {
+                                    display: block;
+                                    width: 100%;
+                                }
+                            }
+                           
+                        }
+                    }
+                    
+
+                    input, textarea
+                    {
+                        background: rgb(222, 222, 222);
+                        background: linear-gradient(0deg, rgba(222, 222, 222, 1) 0%, rgba(237, 237, 237, 1) 2%, rgba(253, 253, 253, 1) 32%, rgba(255, 255, 255, 1) 100%);
+                        border: 1px solid #bdbcbd66;
+                        color: #000;
+                        
+                    }
+                    textarea#form-message {
+                        resize: both;
+                        min-height: 175px;
+                        padding: 10px;
+                        resize: vertical
+                    }
+                    
+                }
+
+                .default-btn
+                {
+                    background: $default-orange-color;
+                    color: #fff;
+                    padding: 10px;
+                    &:hover
+                    {
+                        background: #fff;
+                    color: $default-orange-color;
+                    }
+                }
+            }
+        }
+    }

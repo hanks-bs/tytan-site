@@ -1,0 +1,18 @@
+section.topsection {
+    overflow: hidden;
+    background-image: url('./../images/headerbg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    background-color: #ececec;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+
+    .logo-box
+    {
+        display: flex;
+        align-items: center;
+    }
+
+}
